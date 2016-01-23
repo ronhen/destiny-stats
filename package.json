@@ -1,0 +1,28 @@
+{
+  "name": "destiny-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronhen/destiny-stats.git"
+  },
+  "keywords": [
+    "destiny"
+  ],
+  "author": "Robin Hedin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronhen/destiny-stats/issues"
+  },
+  "homepage": "https://github.com/ronhen/destiny-stats#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.5",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5"
+  }
+}
