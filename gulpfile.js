@@ -4,7 +4,7 @@ var watch = require('gulp-watch');
 var util = require('gulp-util');
 
 gulp.task('less', function() {
-    return gulp.src('app/style/less/base.less')
+    return gulp.src('app/style/less/*.less')
       .pipe(less().on('error', util.log))
       .pipe(gulp.dest('app/style/generated_css'))
 });
