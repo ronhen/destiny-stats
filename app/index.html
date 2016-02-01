@@ -2,13 +2,18 @@
 <html>
     <head>
         <script type="text/javascript" src="libs/angular.min.js"></script>
-        <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
         <script type="text/javascript" src="js/controllers/destinyCtrl.js"></script>
+        <link rel="stylesheet" type="text/css" href="libs/bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="style/generated_css/destiny-app.css"/>
     </head>
-    <body ng-app="destinyApp" class="destiny-app">
-        <div ng-controller="destinyCtrl">
-            <h1 class="destiny-app__title">{{siteName}}</h1>
+    <body class="container" ng-app="destinyApp" class="destiny-app">
+        <div class="" ng-controller="destinyCtrl">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="destiny-app__title">{{siteName}}</h1>
+                </div>
+            </div>
         </div>
     </body>
 </html>
